@@ -1,0 +1,726 @@
+
+table{
+	
+		
+}
+
+td{
+	
+}
+tr{
+	
+	
+	
+}
+body{
+	background-color: #B0C4DE;
+	background-image: url(/template/images/home/bgr.png) ; 
+	background-repeat:no-repeat;
+background-attachment:fixed;
+}
+h3{
+	text-align: center;
+}
+
+body{
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+.logo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-bottom: 5px solid #B0C4DE;
+}
+
+
+/***** Меню     *****/
+
+
+
+/* задаем цвет фона для контейнера nav. */
+nav {
+    margin: 0;
+    background-color: #4682B4;
+	}
+
+	.navigation{
+
+	}
+
+.menu-btn{
+	height: 25px;
+	color: #192a56;
+	width: 150px;
+	border-radius: 25px;
+	}
+
+.menu-btn:hover{
+	color: #fff;
+	cursor:  pointer;
+	background-color:  #4183d7;
+	transition: 0.5s;
+	}
+
+/***** Фронт-контроллер     *****/
+.content-start-page{
+	
+	display: block;
+	border-radius: 20px;
+	min-height: 550px;
+	width: 60%;
+	background: #fff;
+	margin: 2% 20% 5% 20%
+	}
+.central-title{
+	padding-top: 20px;
+	margin: 0px auto 20px auto;
+	color: #192a56;
+	text-align: center;
+	font-size: 25px;
+	font-family: Verdana,Geneva,sans-serif;
+	}
+.central-title-2 {
+	color: #192a56;
+	font-family: Verdana,Geneva,sans-serif;
+	text-align: center;
+	font-size: 20px;
+	}
+.middle-title{
+	text-indent: 25px;
+	text-align: justify;
+	line-height: 1.7;
+	width: 90%;
+	color: #130f40;
+	font-family: Verdana,Geneva,sans-serif;
+	margin:20px auto 0 auto;
+	}
+.bottom-title{
+	text-indent: 25px;
+	text-align: justify;
+	width: 90%;
+	margin: 20px auto 20px auto;
+	color: #090035	;
+	line-height: 1.5;
+	font-family: Verdana,Geneva,sans-serif;
+	}
+.reg-link-button{
+	margin: 40px auto;
+}
+.reg-link-button a{
+	padding: 5px 10px 5px 10px;
+	border:1px solid #4183d7 ;
+	background-color: #fff;
+	 border-radius: 7px;
+	 color: #4183d7;
+	 }
+.reg-link-button a:hover{
+	background-color: #4183d7;
+	 border-radius: 7px;
+	 color: #fff;
+	 }
+.reg-link-button{
+padding-bottom: 6px;
+}
+.reg-link-button p{
+	text-align: center;
+	width: 100%;
+	height: 20%;
+	color: white;
+	margin-bottom: 10px;
+
+    }
+
+/***** Стр. регистрации   *****/
+	.register1{
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		border:1px solid #4682B4;
+		border-radius: 10px;
+	}
+	.register2{
+		position: absolute;
+		width: 162px;
+		top: 45px;
+		right: 5px;
+		border:1px solid #4682B4;
+		border-radius: 10px;
+	}
+
+	.register1 a:hover {
+		border-radius: 10px;
+	}
+	.register2 a:hover {
+		border-radius: 10px;
+	}
+	
+	.g-recaptcha{
+	    width: 16%;
+	    margin: 2% 42% 2% 42%;
+	    
+	}
+
+
+	
+	.register-ok {
+		margin-top: 40px;
+		font-size: 40px;
+		color: #ffffff;
+		text-align: center;
+	}
+
+
+    .restore-link{
+		margin-top: 40px;
+		text-align: center;
+
+	}
+.restore-link a{
+	color: #FFFFFF;
+}
+
+.restore-link a:hover{
+	color: #FFFFFF;
+}
+
+.restore-text{
+	width: 60%;
+	margin: 20px 20% 0 20%;
+	padding-top:10%;
+}
+
+.restore-form{
+
+	margin-top: 15px;
+}
+
+.restore-form input{
+    margin: 0 auto;
+}
+
+.reg-check-text{
+    width:40%;
+    margin: 0 30% 0 30%;
+}
+
+
+
+
+.regok{
+	width: 100%;
+	padding-top: 7%;
+	margin: 0 auto;
+	font-size: 25px;
+	color: #316d9e;
+	text-align: center;
+}
+
+.menu-btn-regok{
+	width: 30%;
+	margin: 0 35% 0 35%;
+	margin-top: 20px;
+	height: 25px;
+	color: #192a56;
+
+	border-radius: 25px;
+}
+
+.menu-btn-regok:hover{
+	color: #fff;
+	cursor:  pointer;
+	background-color:  #4183d7;
+	transition: 0.5s;
+}
+
+/***** Общий content     *****/
+
+.content{
+	display: block;
+	border-radius: 20px;
+	min-height: 550px;
+	
+	width: 60%;
+	background: #fff;
+	margin: 2% 20% 5% 20%
+
+}
+
+.row-up{
+	margin-top: 15px;
+	text-align: center;
+	color: #316d9e;
+	font-size: 25px;
+}
+/***** форма регистрации и входа     *****/
+
+/*.userform input{
+	text-align: center;
+	display: block;
+	height: 40px;
+	width: 40%;
+	margin: 10px 30% 30px 30%;
+	border-radius: 45px;
+}*/
+
+.useform-input{
+    text-align: center;
+	display: block;
+	height: 40px;
+	width: 40%;
+	margin: 10px 30% 30px 30%;
+	border-radius: 45px;
+}
+
+
+
+
+#btnSubmit{
+	margin: 0 40% 0 40%;
+	width: 20%;
+}
+.reg-btn{
+	color: #4183d7;
+	text-align: center;
+	display: block;
+	height: 40px;
+	width: 40%;
+	margin: 10px 30% 30px 30%;
+	border-radius: 45px;
+
+}
+.reg-btn:hover{
+	color: #fff;
+	cursor: pointer;				
+	transition: 0.8s;
+	background-color:  #4183d7;
+	}
+
+.link-button{
+	border:1px solid #ccc; 
+background:#eaeaea; 
+padding: .2em .75em; 
+text-decoration: none; 
+}
+
+
+/***** Форма онлайн заявки    *****/
+.order-form-order{
+	width: 70%;
+	margin: 2% 15% 5% 15%;
+}
+
+.upd-form-order{
+	width: 100%;
+}
+
+.upd-form-order select{
+	border-radius: 5px;
+	width: 100%;
+	color: #4682B4;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+	
+}
+.upd-form-order option{
+	text-align: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.upd-form-order input{
+	width: 98%;
+	margin-bottom: 15px;
+}
+
+
+.upd-submit-order{
+
+	
+	background-color: #4183d7;
+	color: #fff;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.upd-submit-order:hover{
+	color: #4183d7;
+	background-color: #fff;
+	transition: 0.5s;
+
+}
+
+
+
+.doc{
+	color: #192a56;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 40px;
+}
+.doc-text{
+	margin: 0 auto;
+	color: #192a56;
+	line-height: 2em;
+	font-size: 17px;
+	width: 90%;
+}
+.user-cab{
+	font-size: 25px;
+	color: #FFF;
+	text-align: center;
+}
+
+.order-ok{
+	color: #192a56;
+	text-align: center;
+	font-size: 40px;
+}
+
+.download-status{
+	font-size: 18px;
+	color: #fff;
+	width: 19%;
+	position: relative;
+	top: 600px;
+	left: 10px;
+	
+}
+
+
+/***** Статус заявки   *****/
+
+
+.form-order-status{
+	width: 80%;
+	margin:2% 10% 2% 10%;
+}
+.form-order-status p{
+	font-size: 16px;
+	width: 100%;
+	padding-top: 5%;
+	color: #130f40;
+}
+.form-order-status select{
+	border-radius: 5px;
+	margin: 0 15% 0 15%;
+	color: #4682B4;
+	font-size: 20px;
+	width: 70%;
+	margin-top: 2%;
+	text-align: center;
+}
+.form-order-status option{
+	text-align: center;
+	width: 100%;
+
+}
+
+/***** Калькулятор  *****/
+
+.calc-row{
+	color: #192a56;
+	text-align: center;
+	font-size: 25px;
+
+
+}
+.calc-row2{
+	color: #192a56;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.calc-select{
+	border-radius: 5px;
+	margin: 0 15% 0 15%;
+	color: #4682B4;
+	font-size: 20px;
+	width: 70%;
+	margin-top: 2%;
+	text-align: center;
+}
+.calc-form{
+	width: 80%;
+	margin:2% 10% 2% 10%;
+}
+.calc-form input{
+	width: 60%;
+	margin: 2% 20% 2% 20%;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.calc-result{
+	color: #4682B4;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.calc-submit{
+	width: 20% !important;
+	margin: 2% 40% 2% 40% !important;
+	height: 35px;
+	cursor: pointer;
+}
+
+.calc-submit:hover{
+	background-color:  #4682B4; 
+	transition: 0.8s;
+}
+
+/***** Вопросы пользователя    *****/
+.question-row{
+    color: #192a56;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+.question-submit{
+	width: 20% !important;
+	margin: 2% 40% 2% 40% !important;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.question-submit:hover{
+    background-color:  #4682B4; 
+	transition: 0.8s;
+}
+
+.question-area{
+	height: 200px;
+	width: 70%;
+	border-radius: 6px;
+	border: 1px solid #ced6e0;
+	resize: none;
+	margin: 5% 15% 0 15%;
+}
+
+
+
+
+/***** Админ    *****/
+
+
+
+/***** Админ  список заявок  *****/
+.content-order-list{
+	display: block;
+	border-radius: 20px;
+	min-height: 550px;
+	padding-bottom: 20px;
+	
+	background: #fff;
+	margin: 2% 15% 5% 15%
+}
+.table-bordered-ur {
+
+	margin: 45px auto; 
+	margin-top: 40px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  background: white;
+  max-width: 90%;
+  width: 90%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table-bordered-fiz {
+
+	margin: 45px auto; 
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  background: white;
+  max-width: 90%;
+  width: 90%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.red {
+	
+	vertical-align: middle;
+	text-align:center;
+}
+
+
+
+th {
+  font-weight: normal;
+  color: #039;
+  border-bottom: 2px solid #6678b1;
+  padding: 10px 8px;
+}
+td {
+	padding-top: 8px;
+  color: #669;
+  padding: 9px 8px;
+  transition: .3s linear;
+  border-bottom: 1px solid #ccc;
+  color: #669;
+  padding: 9px 8px;
+  transition: .3s linear;
+}
+tr:hover td {color: #6699ff;}
+
+
+.upd-form{
+	margin:0 auto;
+	width: 800px;
+}
+
+.upd-form input{
+	width: 30%;
+	margin: 0 35% 2% 35%;
+}
+
+.upd-form select{
+	color: #4682B4;
+	font-size: 20px;
+	text-align: center;
+	width: 400px;
+	margin-left: 200px;
+}
+.upd-form option{
+	text-align: center;
+}
+
+.upd-submit{
+	margin-top: 5%;
+	margin-left: 35%;
+	background-color: #4183d7;
+	color: #fff;
+	height: 40px;
+	width: 250px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.upd-submit:hover{
+	color: #4183d7;
+	background-color: #fff;
+	transition: 0.5s;
+}
+
+
+/******   Админ ответ на вопрос ****/
+
+.mess-wrap{
+ width: 80%;
+ margin: 0 10% 0 10%;
+}
+
+.message-table{
+	min-height: 10px;
+}
+
+
+.adm-mes-id{
+    width: 10%;
+}
+
+.adm-mes-text{
+	width:80%;
+	text-align: center;
+	
+}
+
+.adm-mes-date{
+	width: 10%;
+   
+}
+
+/******   Админ файлы****/
+.file-list{
+    
+	margin:40px 0 0 50px;
+	padding-left: 10px;
+}
+.open-file {
+     color: #316d9e;
+}
+
+
+.download-file{
+	margin-left: 10px;
+	color: blue;
+}
+
+
+
+
+
+/******* Pagination   *******/
+.pagination {
+	width: 70%;
+	margin: 0 15% 25px 15%;  
+    padding-left: 15px;
+}
+
+.pagination li{
+	display: inline-block;
+}
+.pagination  li:first-child  a, .pagination  li:first-child  span {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-left: 0;
+}
+.pagination  li:last-child  a, .pagination  li:last-child  span {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.pagination  .active  a, .pagination  .active  span, .pagination  .active  a:hover, .pagination  .active  span:hover, .pagination  .active  a:focus, .pagination  .active  span:focus {
+  background-color: #4183d7;
+  border-color: #FE980F;
+  color: #FFFFFF;
+  cursor: default;
+  z-index: 2;
+}
+.pagination  li  a, .pagination  li  span {
+  background-color: #f0f0e9;
+  border: 0;
+  float: left;
+  line-height: 1.42857;
+  margin-left: -1px;
+  padding: 6px 12px;
+  position: relative;
+  text-decoration: none;
+  margin-right: 5px;
+  color:#000;
+}
+
+.pagination  li  a:hover{
+	background:#4183d7;
+	color:#fff;
+}
+
+
+
+footer{
+	clear: both;
+}
+
+.calendar-wrapper table {background-color: #FFFFFF; color: #272829; font-family: Tahoma; border-collapse: collapse;}
+.calendar-wrapper table tr.day td {font-size: 10.0px; font-weight: bold; background: #E9E9E9;}
+.calendar-wrapper table tr#first-child td {width: 0; font-size: 11px; font-weight: bold;}
+.calendar-wrapper table .lalign {text-align: left;}
+.calendar-wrapper table .ralign {text-align: right;}
+.calendar-wrapper table td {width: 25px; height: 20px; text-align: center; font-size: 15px; cursor: pointer;}
+/* button control */
+.calendar-wrapper table button {border: 1px solid #E9E5E5; background: #FFFFFF; color: #272829; font-family: Courier, monospace; padding: 0px 1px; height: 20px; cursor: pointer;}
+.calendar-wrapper table tr.day td, .calendar-wrapper table tr.control td, .calendar-wrapper table button {border: none;}
+.calendar-wrapper {position: absolute; z-index: 1; left: 8px; top: 200px; display: none; border: 1px solid #D8D8D8; -webkit-box-shadow: 0 0 10px #888; -moz-box-shadow: 0 0 10px  #888; box-shadow: 0 0 10px  #888;}
+
+/* colors day */
+.calendar-wrapper .Sunday {background: #FFDDDD;}
+.calendar-wrapper .DefaultDay {background: #FFFFFF;}
+.calendar-wrapper .CurrDay {background: #D90000;}
+.calendar-wrapper .Select {background: #0f71c8; color: #FFFFFF;}

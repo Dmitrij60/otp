@@ -1,0 +1,15 @@
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteRule ^activation/([a-zA-Z0-9_-]+)$ activation.php?code=$1
+#RewriteRule ^activation/([a-zA-Z0-9_-]+)/$ activation.php?code=$1
+
+RewriteRule ^(.*)$ index.php
+
+
+Options All -Indexes
